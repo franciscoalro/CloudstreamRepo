@@ -2,7 +2,7 @@
     {
         "name": "AnimesOnlineCC",
         "internalName": "AnimesOnlineCC",
-        "description": "Assista animes online grátis em HD",
+        "description": "Assista animes online grátis em HD no AnimesOnlineCC. Grande catálogo de animes legendados e dublados.",
         "version": 3,
         "authors": [
             "franciscoalro"
@@ -11,9 +11,14 @@
         "status": 1,
         "language": "pt-BR",
         "tvTypes": [
-            "Anime"
+            "Anime",
+            "OVA",
+            "AnimeMovie"
         ],
         "iconUrl": "https://animesonlinecc.to/wp-content/uploads/2020/01/cropped-favicon-32x32.png",
+        "apiVersion": 1,
+        "isAdult": false,
+        "fileSize": 15000,
         "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v3.0/AnimesOnlineCC.cs3"
     }
 ]
