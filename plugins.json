@@ -3,7 +3,7 @@
         "name": "AnimesOnlineCC",
         "internalName": "AnimesOnlineCC",
         "description": "Assista animes online grátis em HD no AnimesOnlineCC. Grande catálogo de animes legendados e dublados.",
-        "version": 8,
+        "version": 9,
         "authors": [
             "franciscoalro"
         ],
@@ -19,6 +19,6 @@
         "apiVersion": 1,
         "isAdult": false,
         "fileSize": 15000,
-        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v4.3/AnimesOnlineCC.cs3"
+        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v5.0/AnimesOnlineCC.cs3"
     }
 ]
