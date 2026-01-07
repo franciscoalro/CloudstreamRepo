@@ -3,7 +3,7 @@
         "name": "AnimesOnlineCC",
         "internalName": "AnimesOnlineCC",
         "description": "Assista animes online grátis em HD no AnimesOnlineCC. Grande catálogo de animes legendados e dublados.",
-        "version": 9,
+        "version": 4,
         "authors": [
             "franciscoalro"
         ],
@@ -19,6 +19,27 @@
         "apiVersion": 1,
         "isAdult": false,
         "fileSize": 15000,
-        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v5.0/AnimesOnlineCC.cs3"
+        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v5.3/AnimesOnlineCC.cs3"
+    },
+    {
+        "name": "MaxSeries",
+        "internalName": "MaxSeries",
+        "description": "Assista séries online em HD no MaxSeries.",
+        "version": 1,
+        "authors": [
+            "franciscoalro"
+        ],
+        "repositoryUrl": "https://github.com/franciscoalro/TestPlugins",
+        "status": 1,
+        "language": "pt-BR",
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.maxseries.one/wp-content/themes/dooplay/assets/img/favicon.png",
+        "apiVersion": 1,
+        "isAdult": false,
+        "fileSize": 15000,
+        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v5.3/MaxSeries.cs3"
     }
 ]
