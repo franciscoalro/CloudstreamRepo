@@ -39,9 +39,9 @@
         "iconUrl": "https://www.maxseries.pics/wp-content/themes/dooplay/assets/img/favicon.png",
         "apiVersion": 1,
         "isAdult": false,
-        "fileSize": 580000,
+        "fileSize": 615634,
         "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v255/MaxSeries.cs3",
-        "fileHash": "4485AA2F0E105FB4842B7C9F0EF40A7E5686F2DE1E0616E72257E0E2C07EE382",
+        "fileHash": "C39449DE964A6D93FE3A1B8D33E5FF357BC470B7596310BE5CB13BA0B4A96CE8",
         "updatedAt": "2026-01-31 16:00:00"
     }
 ]
