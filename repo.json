@@ -1,1 +1,8 @@
-{"name":"Francisco Plugins","description":"Repositorio pessoal de extensoes","manifestVersion":1,"pluginLists":["https://franciscoalro.github.io/CloudstreamRepo/plugins.json"]}
+{
+    "name": "Francisco Plugins",
+    "description": "Repositorio brasileiro de extensoes para CloudStream",
+    "manifestVersion": 1,
+    "pluginLists": [
+        "https://raw.githubusercontent.com/franciscoalro/TestPlugins/main/plugins.json"
+    ]
+}
