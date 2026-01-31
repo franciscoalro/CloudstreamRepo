@@ -24,8 +24,8 @@
     {
         "name": "MaxSeries",
         "internalName": "MaxSeries",
-        "description": "MaxSeries v255 - Full Source Extraction com PlayerEmbedAPI v6.0. Extrai TODAS as sources disponiveis, nao apenas a primeira.",
-        "version": 255,
+        "description": "MaxSeries v256 - PlayerEmbedAPI V8+V7 Fixes (Pure HTTP + WebView Optimized, Timeout 25s, 12 URL Patterns). Melhorias significativas na extração de vídeo.",
+        "version": 256,
         "authors": [
             "franciscoalro"
         ],
@@ -39,9 +39,9 @@
         "iconUrl": "https://www.maxseries.pics/wp-content/themes/dooplay/assets/img/favicon.png",
         "apiVersion": 1,
         "isAdult": false,
-        "fileSize": 616309,
-        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v255/MaxSeries.cs3",
-        "fileHash": "A8AAE42F3347A3A189D5171E895A8E3CB1D5659094DB7B9465CE97EA24A44348",
-        "updatedAt": "2026-01-31 16:31:00"
+        "fileSize": 654000,
+        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v256/MaxSeries.cs3",
+        "fileHash": "",
+        "updatedAt": "2026-01-31 18:53:57"
     }
 ]
