@@ -1,6 +1,6 @@
 {
-    "name": "Francisco Plugins - v254",
-    "description": "Repositorio brasileiro de extensoes para CloudStream - MaxSeries v254 (Production Release com PlayerEmbedAPI v5.0)",
+    "name": "Francisco Plugins - v255",
+    "description": "Repositorio brasileiro de extensoes para CloudStream - MaxSeries v255 (PlayerEmbedAPI v6.0 Full Source Extraction)",
     "manifestVersion": 1,
     "pluginLists": [
         "https://franciscoalro.github.io/CloudstreamRepo/plugins.json"

@@ -24,8 +24,8 @@
     {
         "name": "MaxSeries",
         "internalName": "MaxSeries",
-        "description": "MaxSeries v254 - Production Release com PlayerEmbedAPI v5.0. 52 testes automatizados passando. Suporte a multiplas fontes de video com fallback inteligente.",
-        "version": 254,
+        "description": "MaxSeries v255 - Full Source Extraction com PlayerEmbedAPI v6.0. Extrai TODAS as sources disponiveis, nao apenas a primeira.",
+        "version": 255,
         "authors": [
             "franciscoalro"
         ],
@@ -39,9 +39,9 @@
         "iconUrl": "https://www.maxseries.pics/wp-content/themes/dooplay/assets/img/favicon.png",
         "apiVersion": 1,
         "isAdult": false,
-        "fileSize": 579063,
-        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v254/MaxSeries.cs3",
-        "fileHash": "5C02206AEC9125C0449019E9BC21C5E84DABD6DC3E5506FBA7ACBE157D6D2C2C",
-        "updatedAt": "2026-01-31 15:30:00"
+        "fileSize": 580000,
+        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v255/MaxSeries.cs3",
+        "fileHash": "4485AA2F0E105FB4842B7C9F0EF40A7E5686F2DE1E0616E72257E0E2C07EE382",
+        "updatedAt": "2026-01-31 16:00:00"
     }
 ]
