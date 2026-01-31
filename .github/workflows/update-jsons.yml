@@ -1,0 +1,118 @@
+name: Update JSONs for v256
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-jsons:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Update plugins.json
+      run: |
+        cat > plugins.json << 'EOF'
+[
+    {
+        "name": "AnimesOnlineCC",
+        "internalName": "AnimesOnlineCC",
+        "description": "Assista animes online gratis em HD no AnimesOnlineCC",
+        "version": 10,
+        "authors": [
+            "franciscoalro"
+        ],
+        "repositoryUrl": "https://github.com/franciscoalro/TestPlugins",
+        "status": 1,
+        "language": "pt-BR",
+        "tvTypes": [
+            "Anime",
+            "OVA",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://animesonlinecc.to/wp-content/uploads/2020/01/cropped-favicon-32x32.png",
+        "apiVersion": 1,
+        "isAdult": false,
+        "fileSize": 15000,
+        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v10/AnimesOnlineCC.cs3"
+    },
+    {
+        "name": "MaxSeries",
+        "internalName": "MaxSeries",
+        "description": "MaxSeries v256 - PlayerEmbedAPI V8+V7 Fixes",
+        "version": 256,
+        "authors": [
+            "franciscoalro"
+        ],
+        "repositoryUrl": "https://github.com/franciscoalro/TestPlugins",
+        "status": 1,
+        "language": "pt-BR",
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.maxseries.pics/wp-content/themes/dooplay/assets/img/favicon.png",
+        "apiVersion": 1,
+        "isAdult": false,
+        "fileSize": 653163,
+        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v256/MaxSeries.cs3",
+        "fileHash": "541781E424BC37EF2ECC5F0AB6B1FAB402AC1B3F564232D634526CB9993CC105",
+        "updatedAt": "2026-01-31 18:53:57"
+    }
+]
+EOF
+        echo "✅ plugins.json updated"
+        
+    - name: Update repo.json
+      run: |
+        cat > repo.json << 'EOF'
+{
+    "name": "Francisco Plugins",
+    "description": "Repositorio pessoal de extensoes",
+    "manifestVersion": 1,
+    "pluginLists": [
+        "https://franciscoalro.github.io/CloudstreamRepo/plugins.json"
+    ]
+}
+EOF
+        echo "✅ repo.json updated"
+        
+    - name: Verify JSONs
+      run: |
+        echo "🔍 Verifying plugins.json..."
+        node -e "JSON.parse(require('fs').readFileSync('plugins.json', 'utf8')); console.log('✅ plugins.json is valid')"
+        
+        echo "🔍 Verifying repo.json..."
+        node -e "JSON.parse(require('fs').readFileSync('repo.json', 'utf8')); console.log('✅ repo.json is valid')"
+        
+        echo "📄 File sizes:"
+        ls -la plugins.json repo.json
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        git add plugins.json repo.json
+        
+        if git diff --staged --quiet; then
+          echo "✅ No changes to commit"
+        else
+          git commit -m "Update JSONs for v256 via GitHub Actions
+
+- Updated plugins.json with MaxSeries v256
+- Updated repo.json
+- File sizes and hashes verified
+- Auto-generated on $(date -u +%Y-%m-%d_%H:%M:%S)"
+          git push
+          echo "✅ Changes pushed to repository"
+        fi
