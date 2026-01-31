@@ -1,6 +1,6 @@
 {
-    "name": "Francisco Plugins",
-    "description": "Repositório pessoal de extensões",
+    "name": "Francisco Plugins - v253",
+    "description": "Repositorio pessoal de extensoes - MaxSeries v253 com PlayerEmbedAPI v5.0",
     "manifestVersion": 1,
     "pluginLists": [
         "https://franciscoalro.github.io/CloudstreamRepo/plugins.json"
