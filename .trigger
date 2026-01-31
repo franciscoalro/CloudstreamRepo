@@ -1,1 +1,1 @@
-﻿# Trigger file
+﻿.trigger2
