@@ -1,47 +1,47 @@
 [
     {
-        "name":  "AnimesOnlineCC",
-        "internalName":  "AnimesOnlineCC",
-        "description":  "Assista animes online gratis em HD no AnimesOnlineCC",
-        "version":  10,
-        "authors":  [
-                        "franciscoalro"
-                    ],
-        "repositoryUrl":  "https://github.com/franciscoalro/TestPlugins",
-        "status":  1,
-        "language":  "pt-BR",
-        "tvTypes":  [
-                        "Anime",
-                        "OVA",
-                        "AnimeMovie"
-                    ],
-        "iconUrl":  "https://animesonlinecc.to/wp-content/uploads/2020/01/cropped-favicon-32x32.png",
-        "apiVersion":  1,
-        "isAdult":  false,
-        "fileSize":  15000,
-        "url":  "https://github.com/franciscoalro/TestPlugins/releases/download/v10/AnimesOnlineCC.cs3"
+        "name": "AnimesOnlineCC",
+        "internalName": "AnimesOnlineCC",
+        "description": "Assista animes online gratis em HD no AnimesOnlineCC",
+        "version": 10,
+        "authors": [
+            "franciscoalro"
+        ],
+        "repositoryUrl": "https://github.com/franciscoalro/TestPlugins",
+        "status": 1,
+        "language": "pt-BR",
+        "tvTypes": [
+            "Anime",
+            "OVA",
+            "AnimeMovie"
+        ],
+        "iconUrl": "https://animesonlinecc.to/wp-content/uploads/2020/01/cropped-favicon-32x32.png",
+        "apiVersion": 1,
+        "isAdult": false,
+        "fileSize": 15000,
+        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v10/AnimesOnlineCC.cs3"
     },
     {
-        "name":  "MaxSeries",
-        "internalName":  "MaxSeries",
-        "description":  "MaxSeries v253 - Plugin de streaming com suporte a sÃ©ries e filmes em portuguÃªs. Atualizado em 2026-01-31 14:08:56 com melhorias de performance e estabilidade. Sistema completo de extraÃ§Ã£o de vÃ­deo com mÃºltiplas fontes.",
-        "version":  253,
-        "authors":  [
-                        "franciscoalro"
-                    ],
-        "repositoryUrl":  "https://github.com/franciscoalro/TestPlugins",
-        "status":  1,
-        "language":  "pt-BR",
-        "tvTypes":  [
-                        "TvSeries",
-                        "Movie"
-                    ],
-        "iconUrl":  "https://www.maxseries.pics/wp-content/themes/dooplay/assets/img/favicon.png",
-        "apiVersion":  1,
-        "isAdult":  false,
-        "fileSize":  259995,
-        "url":  "https://github.com/franciscoalro/TestPlugins/releases/download/v253/MaxSeries.cs3",
-        "fileHash":  "6CDFF234059868A1450576CEDF7435D990B2CD63D289358167BE31FA8863C2E8",
-        "updatedAt":  "2026-01-31 14:15:00"
+        "name": "MaxSeries",
+        "internalName": "MaxSeries",
+        "description": "MaxSeries v254 - Production Release com PlayerEmbedAPI v5.0. 52 testes automatizados passando. Suporte a multiplas fontes de video com fallback inteligente.",
+        "version": 254,
+        "authors": [
+            "franciscoalro"
+        ],
+        "repositoryUrl": "https://github.com/franciscoalro/TestPlugins",
+        "status": 1,
+        "language": "pt-BR",
+        "tvTypes": [
+            "TvSeries",
+            "Movie"
+        ],
+        "iconUrl": "https://www.maxseries.pics/wp-content/themes/dooplay/assets/img/favicon.png",
+        "apiVersion": 1,
+        "isAdult": false,
+        "fileSize": 579063,
+        "url": "https://github.com/franciscoalro/TestPlugins/releases/download/v254/MaxSeries.cs3",
+        "fileHash": "5C02206AEC9125C0449019E9BC21C5E84DABD6DC3E5506FBA7ACBE157D6D2C2C",
+        "updatedAt": "2026-01-31 15:30:00"
     }
 ]
