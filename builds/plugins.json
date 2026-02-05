@@ -1,7 +1,7 @@
 ﻿[
     {
         "iconUrl":  "https://www.maxseries.pics/favicon.ico",
-        "fileSize":  705175,
+        "fileSize":  747166,
         "apiVersion":  1,
         "repositoryUrl":  "https://github.com/franciscoalro/CloudstreamRepo",
         "status":  1,
@@ -13,7 +13,7 @@
                         "Movie",
                         "TvSeries"
                     ],
-        "version":  256,
+        "version":  264,
         "internalName":  "MaxSeries",
         "jarUrl":  "https://raw.githubusercontent.com/franciscoalro/CloudstreamRepo/refs/heads/main/builds/MaxSeries.jar",
         "url":  "https://raw.githubusercontent.com/franciscoalro/CloudstreamRepo/refs/heads/main/builds/MaxSeries.cs3",
